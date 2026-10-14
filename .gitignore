@@ -1,0 +1,12 @@
+# Source PDF stays private
+*.pdf
+# QR codes are for the owner only
+qr/
+# Local build tooling
+.venv/
+vendor/
+build.py
+template.html
+CLAUDE.md
+.DS_Store
+__pycache__/
