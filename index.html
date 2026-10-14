@@ -39,6 +39,10 @@
     margin: 0; font-family: "Alta", "Century Gothic", CenturyGothic, "URW Gothic", "URW Gothic L", Futura, "Trebuchet MS", sans-serif; font-weight: normal;
     font-size: clamp(18px, 4.5vw, 26px); letter-spacing: .08em; text-transform: uppercase;
   }
+  header .sub {
+    margin: 4px 0 0; color: var(--accent); font-family: "Alta", "Century Gothic", CenturyGothic, "URW Gothic", "URW Gothic L", Futura, "Trebuchet MS", sans-serif;
+    font-size: clamp(12px, 3.2vw, 15px); letter-spacing: .14em; text-transform: uppercase;
+  }
   #stage {
     flex: 1 0 auto; min-height: 120px;
     display: flex; align-items: center; justify-content: center;
@@ -100,7 +104,7 @@
 </style>
 </head>
 <body>
-<header><h1>House of People</h1></header>
+<header><h1>House of People</h1><p class="sub">Bar &amp; Indian Kitchen</p></header>
 
 <main id="stage">
   <div id="loader" role="status"><div class="spinner"></div><span>Loading booklet…</span></div>
